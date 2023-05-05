@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chat App</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous" defer></script>
+  <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+  <script defer src="http://localhost:3002/script.js"></script>
+  <link rel="stylesheet" href="http://localhost:3002/app.css">
+</head>
+<body>
+
+    <div class="register">
+      <form action="">
+        <input type="name" name="name" id="name" placeholder="Enter your name">
+        <button>
+          Join Room                 
+        </button>
+      </form>
+    </div>
+
+  <div class="app " >
+
+
+
+    <div class="top"><span><img src="http://localhost:3002/logo.png" alt="logo"></span>  <h2>ChatRoom</h2></div>
+    <div id="message-container">
+    
+    </div>
+    <form id="send-container">
+      <input type="text" id="message-input" placeholder="Type message ..">
+      <button type="submit" id="send-button">Send</button>
+    </form>
+  
+
+
+  </div>
+
+
+</body>
+</html>

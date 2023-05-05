@@ -35,7 +35,7 @@ io.on('connection', socket => {
 })
 
 
-app.listen(3002, () => {
+app.listen(80, () => {
   console.log('server is running on port 3000')
 }
 )

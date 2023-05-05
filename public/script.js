@@ -1,4 +1,4 @@
-const socket = io('http://localhost:3000')
+const socket = io('http://20.150.205.35:3000')
 const messageContainer = document.getElementById('message-container')
 const messageForm = document.getElementById('send-container')
 const messageInput = document.getElementById('message-input')
@@ -7,7 +7,7 @@ const registerForm = document.querySelector('.register form')
 const app = document.querySelector('.app');
 
 // Play sound if message is received
-  const audio = new Audio('http://localhost:3002/pip.wav');
+  const audio = new Audio('http://20.150.205.35:3002/pip.wav');
 
 
   
